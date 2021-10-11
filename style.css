@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background: rgb(144,232,127);
+background: linear-gradient(90deg, rgba(144,232,127,0.7740138291644783) 34%, rgba(253,29,29,0.7740138291644783) 50%, rgba(252,176,69,1) 100%);
+
+}
+.menu{
+list-style: none;
+    position: absolute;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right: 10px  
+}
+.links:hover{
+    background-color: red;
+}
+.line{
+    height: 10px;
+    width: 55px;
+    background-color: greenyellow;
+    margin: 1px auto;
+    
+}
+.img:hover {
+    transform: scale(0.9);
+}
+li {
+    font-size: 20px;
+}
+.iframe{
+    margin-right: 2px auto;
+}
+
+
